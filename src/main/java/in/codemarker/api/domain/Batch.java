@@ -2,7 +2,6 @@ package in.codemarker.api.domain;
 
 import java.util.Date;
 
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,6 +11,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+// All done
 @Entity(name = "batches")
 public class Batch {
 	@Id                         ///to make id as primary key we take @Id
