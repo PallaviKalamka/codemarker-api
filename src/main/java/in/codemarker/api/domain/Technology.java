@@ -1,6 +1,7 @@
 package in.codemarker.api.domain;
 
 // From sts to git
+
 import java.util.Date;
 
 import javax.persistence.Entity;
